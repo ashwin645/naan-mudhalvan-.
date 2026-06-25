@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Workshop Registration</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>Workshop Registration & Confirmation</h1>
+<form id="regForm">
+<input type="text" id="name" placeholder="Full Name" required>
+<input type="email" id="email" placeholder="Email Address" required>
+<input type="text" id="workshop" placeholder="Workshop Name" required>
+<button type="submit">Register</button>
+</form>
+<p id="message"></p>
+<h2>Participant List</h2>
+<table>
+<thead><tr><th>Name</th><th>Email</th><th>Workshop</th></tr></thead>
+<tbody id="list"></tbody>
+</table>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

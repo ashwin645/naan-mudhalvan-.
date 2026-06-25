@@ -1,0 +1,9 @@
+body{font-family:Arial,sans-serif;background:#f2f2f2;margin:0}
+.container{max-width:700px;margin:30px auto;background:#fff;padding:20px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+h1,h2{text-align:center}
+input,button{width:100%;padding:10px;margin:8px 0}
+button{background:#007bff;color:#fff;border:none;cursor:pointer}
+button:hover{background:#0056b3}
+table{width:100%;border-collapse:collapse;margin-top:15px}
+th,td{border:1px solid #ccc;padding:8px;text-align:center}
+#message{text-align:center;font-weight:bold}
